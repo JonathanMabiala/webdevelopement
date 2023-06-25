@@ -1,5 +1,3 @@
-function test() {
-  var user = "Nesting";
-}
-
-console.log(user);
+const meal = ["soup", "steak", "ice cream"];
+let [starter] = meal;
+console.log(starter);
